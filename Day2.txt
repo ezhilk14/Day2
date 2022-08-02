@@ -1,0 +1,22 @@
+Window Object Vs Document Object
+
+Window Object
+
+1. It is the top-level element of any webpage.
+2.All the global variables are defined in Windows.
+3.This is the first thing to load into the browser.
+4.Whenever a window appears on the screen,the window object is created.'
+5.windows object have so many proerties some of them are similar to document objects.
+
+syntax:window.property_name;
+
+
+Document Object
+
+1.It is the child of Window Object.
+2.The document object is your html, aspx, php, or other document that will be loaded into the browser. 
+3.The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.
+4.Each HTML document that gets loaded into a window becomes a document object. 
+5.both windows and document objects have same properties but behave differently.
+
+syntax: document.property_name;
